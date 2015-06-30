@@ -1,0 +1,43 @@
+*** Creating Trace Output File '.\OBJ\STM32F407VGT6.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\main.o"'
+### List of Objects: adding '".\obj\stm32f4xx_it.o"'
+### List of Objects: adding '".\obj\system_stm32f4xx.o"'
+### List of Objects: adding '".\obj\uart_debug.o"'
+### List of Objects: adding '".\obj\usb_bsp.o"'
+### List of Objects: adding '".\obj\usbh_usr.o"'
+### List of Objects: adding '".\obj\stm32f4xx_rcc.o"'
+### List of Objects: adding '".\obj\stm32f4xx_tim.o"'
+### List of Objects: adding '".\obj\stm32f4xx_usart.o"'
+### List of Objects: adding '".\obj\stm32f4xx_exti.o"'
+### List of Objects: adding '".\obj\stm32f4xx_gpio.o"'
+### List of Objects: adding '".\obj\misc.o"'
+### List of Objects: adding '".\obj\stm32f4xx_syscfg.o"'
+### List of Objects: adding '".\obj\usbh_core.o"'
+### List of Objects: adding '".\obj\usbh_hcs.o"'
+### List of Objects: adding '".\obj\usbh_ioreq.o"'
+### List of Objects: adding '".\obj\usbh_stdreq.o"'
+### List of Objects: adding '".\obj\usb_core.o"'
+### List of Objects: adding '".\obj\usb_hcd.o"'
+### List of Objects: adding '".\obj\usb_hcd_int.o"'
+### List of Objects: adding '".\obj\usbh_hid_core.o"'
+### List of Objects: adding '".\obj\usbh_hid_keybd.o"'
+### List of Objects: adding '".\obj\usbh_hid_mouse.o"'
+### List of Objects: adding '".\obj\stm32f4_discovery.o"'
+### List of Objects: adding '".\obj\startup_stm32f4xx.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M4.fp ".\obj\main.o" ".\obj\stm32f4xx_it.o" ".\obj\system_stm32f4xx.o" ".\obj\uart_debug.o" ".\obj\usb_bsp.o" ".\obj\usbh_usr.o" ".\obj\stm32f4xx_rcc.o" ".\obj\stm32f4xx_tim.o" ".\obj\stm32f4xx_usart.o" ".\obj\stm32f4xx_exti.o" ".\obj\stm32f4xx_gpio.o" ".\obj\misc.o" ".\obj\stm32f4xx_syscfg.o" ".\obj\usbh_core.o" ".\obj\usbh_hcs.o" ".\obj\usbh_ioreq.o" ".\obj\usbh_stdreq.o" ".\obj\usb_core.o" ".\obj\usb_hcd.o" ".\obj\usb_hcd_int.o" ".\obj\usbh_hid_core.o" ".\obj\usbh_hid_keybd.o" ".\obj\usbh_hid_mouse.o" ".\obj\stm32f4_discovery.o" ".\obj\startup_stm32f4xx.o" --strict --scatter ".\OBJ\STM32F407VGT6.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\STM32F407VGT6.map" -o ".\OBJ\STM32F407VGT6.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\OBJ\STM32F407VGT6.axf'
+### ADS-LD Command File: '.\OBJ\STM32F407VGT6.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\OBJ\STM32F407VGT6.lnp', Handle=0x00000750
+### Writing '.lnp' file
+### ADS-LD Command file '.\OBJ\STM32F407VGT6.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

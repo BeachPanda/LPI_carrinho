@@ -1,0 +1,17 @@
+A funcionar:
+O sensor de posição funciona com indicação da posição absoluta //falta saber a frequência de update
+Os acelerometros indicam se o carro está de pernas para o ar //testado
+Os sensores IR indicam alteração do livre para obstaculo ou qualquer transição //testado
+Controlo manual da direção do carro //não testado
+Controlo manual é desativado em caso de obstaculo //deve apenas ser minimizado: fator de 1/4?
+
+Problemas:
+Receção da porta serie não está a funcionar
+
+Futuro:
+Sensores Ultra Som
+Escrita para cartão dos dados num ficheiro .txt
+Controlo PID da posição através da recepção de coordenadas xy //um vetor com pontos que deverão ser seguidos fazer check com a base a cada x pontos
+Controlo da velocidade da travessia entre pontos
+Sinal sonoro
+Travagem brusca // exige controlo
